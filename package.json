@@ -8,7 +8,7 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "website-dev": "webpack serve --config ./website/webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -22,14 +22,36 @@
   },
   "homepage": "https://github.com/xzp-git/v-ui#readme",
   "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-typescript": "^7.15.0",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
+    "@vue/compiler-sfc": "^3.2.20",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "css-loader": "^6.4.0",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "7.32.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-vue": "^7.19.1",
-    "lerna": "^4.0.0"
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "lerna": "^4.0.0",
+    "sass": "^1.43.2",
+    "sass-loader": "^12.2.0",
+    "style-loader": "^3.3.0",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^16.8.1",
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
   },
   "dependencies": {
+    "typescript": "^4.4.4",
     "vue": "^3.2.20"
   },
   "config": {
