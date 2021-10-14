@@ -6,10 +6,9 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-    name:'VIcon',
-    setup() {
-        
-    },
+  name: 'VIcon',
+  setup () {
+
+  }
 })
 </script>
-

@@ -6,9 +6,9 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-    name:'VButton',
-    setup() {
-        
-    },
+  name: 'VButton',
+  setup () {
+
+  }
 })
 </script>
