@@ -1,0 +1,26 @@
+{
+  "name": "theme-chalks",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "xzp <xingzepeng@geo-compass.com>",
+  "homepage": "https://github.com/xzp-git/v-ui/tree/main/packages/theme-chalks#readme",
+  "license": "ISC",
+  "main": "lib/theme-chalks.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xzp-git/v-ui.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/xzp-git/v-ui/issues"
+  }
+}

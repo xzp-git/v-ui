@@ -1,4 +1,6 @@
 <template>
-  <v-button></v-button>
-  <v-icon></v-icon>
+  <div>
+    <v-button></v-button>
+    <!-- <v-icon name="loading"></v-icon> -->
+  </div>
 </template>
