@@ -2,10 +2,17 @@ import { App } from 'vue'
 
 import Button from '@v-ui/button'
 import Icon from '@v-ui/Icon'
+import ButtonGroup from '@v-ui/button-group'
+import Col from '@v-ui/col'
+import Row from '@v-ui/row'
 
 const components = [
+  Icon,
   Button,
-  Icon
+  ButtonGroup,
+  Col,
+  Row
+
 ]
 const install = (app:App):void => {
   components.forEach(component => {

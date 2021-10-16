@@ -1,5 +1,4 @@
 @import "../common/var.scss";
-
 // .v-button{}
 @mixin b($block) {
     $B: $namespace+'-'+$block;
@@ -30,4 +29,10 @@
             @content;
         }
     }
+}
+
+@mixin button-type($color,$background-color,$border-color) {
+    color: $color;
+    background-color: $background-color;
+    border: $border-color;
 }

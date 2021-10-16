@@ -1,0 +1,20 @@
+@import "./common/var.scss";
+@import "./mixins/mixins.scss";
+
+
+@include b(col){
+    box-sizing: border-box;
+    @for $i from 1 to 24 {
+        &.v-col-span-#{$i}{
+            max-width: (1/24 * $i * 100) * 1%;
+            flex: (1/24 * $i * 100) * 1%;
+        }
+        &.v-col-offset-#{$i}{
+            margin-left: (1/24 * $i * 100) * 1%;
+        }
+    }
+}
+
+
+
+//生成 24中写法 
