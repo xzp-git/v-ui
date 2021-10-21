@@ -1,0 +1,208 @@
+lockfileVersion: 5.3
+
+specifiers:
+  typescript: ^4.4.4
+  vue: ^3.2.20
+
+devDependencies:
+  typescript: registry.npmmirror.com/typescript/4.4.4
+  vue: registry.npmmirror.com/vue/3.2.20
+
+packages:
+
+  registry.nlark.com/csstype/2.6.18:
+    resolution: {integrity: sha1-mAqLUwhfNK8xNBCvBk8r0kF4Qhg=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/csstype/download/csstype-2.6.18.tgz}
+    name: csstype
+    version: 2.6.18
+    dev: true
+
+  registry.nlark.com/estree-walker/2.0.2:
+    resolution: {integrity: sha1-UvAQF4wqTBF6d1fP6UKtt9LaTKw=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/estree-walker/download/estree-walker-2.0.2.tgz}
+    name: estree-walker
+    version: 2.0.2
+    dev: true
+
+  registry.nlark.com/magic-string/0.25.7:
+    resolution: {integrity: sha1-P0l9b9NMZpxnmNy4IfLvMfVEUFE=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/magic-string/download/magic-string-0.25.7.tgz}
+    name: magic-string
+    version: 0.25.7
+    dependencies:
+      sourcemap-codec: registry.nlark.com/sourcemap-codec/1.4.8
+    dev: true
+
+  registry.nlark.com/source-map-js/0.6.2:
+    resolution: {integrity: sha1-C7XeYxtBz72mz7qL0FqA79/SOF4=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/source-map-js/download/source-map-js-0.6.2.tgz}
+    name: source-map-js
+    version: 0.6.2
+    engines: {node: '>=0.10.0'}
+    dev: true
+
+  registry.nlark.com/source-map/0.6.1:
+    resolution: {integrity: sha1-dHIq8y6WFOnCh6jQu95IteLxomM=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/source-map/download/source-map-0.6.1.tgz}
+    name: source-map
+    version: 0.6.1
+    engines: {node: '>=0.10.0'}
+    dev: true
+
+  registry.nlark.com/sourcemap-codec/1.4.8:
+    resolution: {integrity: sha1-6oBL2UhXQC5pktBaOO8a41qatMQ=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/sourcemap-codec/download/sourcemap-codec-1.4.8.tgz}
+    name: sourcemap-codec
+    version: 1.4.8
+    dev: true
+
+  registry.npmmirror.com/@babel/parser/7.15.8:
+    resolution: {integrity: sha1-e6zcvnG9w/+TbVEMFdzqfPC5kBY=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@babel/parser/download/@babel/parser-7.15.8.tgz}
+    name: '@babel/parser'
+    version: 7.15.8
+    engines: {node: '>=6.0.0'}
+    hasBin: true
+    dev: true
+
+  registry.npmmirror.com/@vue/compiler-core/3.2.20:
+    resolution: {integrity: sha1-r1o8UjeBiDWw0L6DfrWIWo0hwWA=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/compiler-core/download/@vue/compiler-core-3.2.20.tgz}
+    name: '@vue/compiler-core'
+    version: 3.2.20
+    dependencies:
+      '@babel/parser': registry.npmmirror.com/@babel/parser/7.15.8
+      '@vue/shared': registry.npmmirror.com/@vue/shared/3.2.20
+      estree-walker: registry.nlark.com/estree-walker/2.0.2
+      source-map: registry.nlark.com/source-map/0.6.1
+    dev: true
+
+  registry.npmmirror.com/@vue/compiler-dom/3.2.20:
+    resolution: {integrity: sha1-jg7zVEScD69BUZsAv8IEXq4B3LU=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/compiler-dom/download/@vue/compiler-dom-3.2.20.tgz}
+    name: '@vue/compiler-dom'
+    version: 3.2.20
+    dependencies:
+      '@vue/compiler-core': registry.npmmirror.com/@vue/compiler-core/3.2.20
+      '@vue/shared': registry.npmmirror.com/@vue/shared/3.2.20
+    dev: true
+
+  registry.npmmirror.com/@vue/compiler-sfc/3.2.20:
+    resolution: {integrity: sha1-LXZo528GbFZt18CcFcmszk6Hbgo=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/compiler-sfc/download/@vue/compiler-sfc-3.2.20.tgz}
+    name: '@vue/compiler-sfc'
+    version: 3.2.20
+    dependencies:
+      '@babel/parser': registry.npmmirror.com/@babel/parser/7.15.8
+      '@vue/compiler-core': registry.npmmirror.com/@vue/compiler-core/3.2.20
+      '@vue/compiler-dom': registry.npmmirror.com/@vue/compiler-dom/3.2.20
+      '@vue/compiler-ssr': registry.npmmirror.com/@vue/compiler-ssr/3.2.20
+      '@vue/ref-transform': registry.npmmirror.com/@vue/ref-transform/3.2.20
+      '@vue/shared': registry.npmmirror.com/@vue/shared/3.2.20
+      estree-walker: registry.nlark.com/estree-walker/2.0.2
+      magic-string: registry.nlark.com/magic-string/0.25.7
+      postcss: registry.npmmirror.com/postcss/8.3.9
+      source-map: registry.nlark.com/source-map/0.6.1
+    dev: true
+
+  registry.npmmirror.com/@vue/compiler-ssr/3.2.20:
+    resolution: {integrity: sha1-nM62Jh2ZMstVaCAmEMHCj4bF5SE=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/compiler-ssr/download/@vue/compiler-ssr-3.2.20.tgz}
+    name: '@vue/compiler-ssr'
+    version: 3.2.20
+    dependencies:
+      '@vue/compiler-dom': registry.npmmirror.com/@vue/compiler-dom/3.2.20
+      '@vue/shared': registry.npmmirror.com/@vue/shared/3.2.20
+    dev: true
+
+  registry.npmmirror.com/@vue/reactivity/3.2.20:
+    resolution: {integrity: sha1-gf4cNo5/ILwOwd7BBFu+4lNYLeg=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/reactivity/download/@vue/reactivity-3.2.20.tgz}
+    name: '@vue/reactivity'
+    version: 3.2.20
+    dependencies:
+      '@vue/shared': registry.npmmirror.com/@vue/shared/3.2.20
+    dev: true
+
+  registry.npmmirror.com/@vue/ref-transform/3.2.20:
+    resolution: {integrity: sha1-KlnskMr45cczZ3agkAv/CouBwJA=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/ref-transform/download/@vue/ref-transform-3.2.20.tgz?cache=0&sync_timestamp=1633756876130&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40vue%2Fref-transform%2Fdownload%2F%40vue%2Fref-transform-3.2.20.tgz}
+    name: '@vue/ref-transform'
+    version: 3.2.20
+    dependencies:
+      '@babel/parser': registry.npmmirror.com/@babel/parser/7.15.8
+      '@vue/compiler-core': registry.npmmirror.com/@vue/compiler-core/3.2.20
+      '@vue/shared': registry.npmmirror.com/@vue/shared/3.2.20
+      estree-walker: registry.nlark.com/estree-walker/2.0.2
+      magic-string: registry.nlark.com/magic-string/0.25.7
+    dev: true
+
+  registry.npmmirror.com/@vue/runtime-core/3.2.20:
+    resolution: {integrity: sha1-j2PpVqP4j7dyVBRDxFp3ASEQEss=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/runtime-core/download/@vue/runtime-core-3.2.20.tgz}
+    name: '@vue/runtime-core'
+    version: 3.2.20
+    dependencies:
+      '@vue/reactivity': registry.npmmirror.com/@vue/reactivity/3.2.20
+      '@vue/shared': registry.npmmirror.com/@vue/shared/3.2.20
+    dev: true
+
+  registry.npmmirror.com/@vue/runtime-dom/3.2.20:
+    resolution: {integrity: sha1-iqVq5sMPnNSnHKDp7DxL3GcUjRU=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/runtime-dom/download/@vue/runtime-dom-3.2.20.tgz?cache=0&sync_timestamp=1633756879144&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40vue%2Fruntime-dom%2Fdownload%2F%40vue%2Fruntime-dom-3.2.20.tgz}
+    name: '@vue/runtime-dom'
+    version: 3.2.20
+    dependencies:
+      '@vue/runtime-core': registry.npmmirror.com/@vue/runtime-core/3.2.20
+      '@vue/shared': registry.npmmirror.com/@vue/shared/3.2.20
+      csstype: registry.nlark.com/csstype/2.6.18
+    dev: true
+
+  registry.npmmirror.com/@vue/server-renderer/3.2.20_vue@3.2.20:
+    resolution: {integrity: sha1-cF4HrpQlEysrYifTCKUaE/TU7IE=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/server-renderer/download/@vue/server-renderer-3.2.20.tgz}
+    id: registry.npmmirror.com/@vue/server-renderer/3.2.20
+    name: '@vue/server-renderer'
+    version: 3.2.20
+    peerDependencies:
+      vue: 3.2.20
+    dependencies:
+      '@vue/compiler-ssr': registry.npmmirror.com/@vue/compiler-ssr/3.2.20
+      '@vue/shared': registry.npmmirror.com/@vue/shared/3.2.20
+      vue: registry.npmmirror.com/vue/3.2.20
+    dev: true
+
+  registry.npmmirror.com/@vue/shared/3.2.20:
+    resolution: {integrity: sha1-U3RpYfcxqOpmbjMWJx6UQjjcMds=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/shared/download/@vue/shared-3.2.20.tgz?cache=0&sync_timestamp=1633756876284&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40vue%2Fshared%2Fdownload%2F%40vue%2Fshared-3.2.20.tgz}
+    name: '@vue/shared'
+    version: 3.2.20
+    dev: true
+
+  registry.npmmirror.com/nanoid/3.1.30:
+    resolution: {integrity: sha1-Y/k8xUjSoRPcXfvGO/oJ4rm2Q2I=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/nanoid/download/nanoid-3.1.30.tgz}
+    name: nanoid
+    version: 3.1.30
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
+    dev: true
+
+  registry.npmmirror.com/picocolors/0.2.1:
+    resolution: {integrity: sha1-VwZw95NkaFHRuhNZlpYqutWHhZ8=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/picocolors/download/picocolors-0.2.1.tgz}
+    name: picocolors
+    version: 0.2.1
+    dev: true
+
+  registry.npmmirror.com/postcss/8.3.9:
+    resolution: {integrity: sha1-mHVMqgbE7p61nMSL0HO7a9NDfDE=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/postcss/download/postcss-8.3.9.tgz}
+    name: postcss
+    version: 8.3.9
+    engines: {node: ^10 || ^12 || >=14}
+    dependencies:
+      nanoid: registry.npmmirror.com/nanoid/3.1.30
+      picocolors: registry.npmmirror.com/picocolors/0.2.1
+      source-map-js: registry.nlark.com/source-map-js/0.6.2
+    dev: true
+
+  registry.npmmirror.com/typescript/4.4.4:
+    resolution: {integrity: sha1-LNAaGh8WBwTTEB/VpY/w+fy4Aww=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/typescript/download/typescript-4.4.4.tgz}
+    name: typescript
+    version: 4.4.4
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
+
+  registry.npmmirror.com/vue/3.2.20:
+    resolution: {integrity: sha1-lA+KqL8+O+eCQ8pYK61B/NRa4+Y=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue/download/vue-3.2.20.tgz}
+    name: vue
+    version: 3.2.20
+    dependencies:
+      '@vue/compiler-dom': registry.npmmirror.com/@vue/compiler-dom/3.2.20
+      '@vue/compiler-sfc': registry.npmmirror.com/@vue/compiler-sfc/3.2.20
+      '@vue/runtime-dom': registry.npmmirror.com/@vue/runtime-dom/3.2.20
+      '@vue/server-renderer': registry.npmmirror.com/@vue/server-renderer/3.2.20_vue@3.2.20
+      '@vue/shared': registry.npmmirror.com/@vue/shared/3.2.20
+    dev: true

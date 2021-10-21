@@ -1,0 +1,316 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "workspacePrefix": "D:\\zhufeng\\vue\\vue3\\v-ui"
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "@v-ui/play",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC"
+    },
+    "prefix": "D:\\zhufeng\\vue\\vue3\\v-ui\\play"
+  },
+  "2 debug pnpm:package-manifest": {
+    "initial": {
+      "private": true,
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/xzp-git/v-ui.git"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/xzp-git/v-ui/issues"
+      },
+      "homepage": "https://github.com/xzp-git/v-ui#readme",
+      "devDependencies": {
+        "typescript": "^4.4.4",
+        "vue": "^3.2.20"
+      }
+    },
+    "prefix": "D:\\zhufeng\\vue\\vue3\\v-ui"
+  },
+  "3 debug pnpm:context": {
+    "currentLockfileExists": true,
+    "storeDir": "D:\\.pnpm-store\\v3",
+    "virtualStoreDir": "D:\\zhufeng\\vue\\vue3\\v-ui\\node_modules\\.pnpm"
+  },
+  "4 debug pnpm:stage": {
+    "prefix": "D:\\zhufeng\\vue\\vue3\\v-ui",
+    "stage": "resolution_started"
+  },
+  "5 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/typescript/4.4.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "typescript",
+      "rawSpec": "^4.4.4"
+    }
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/vue/3.2.20",
+    "wanted": {
+      "dependentId": ".",
+      "name": "vue",
+      "rawSpec": "^3.2.20"
+    }
+  },
+  "7 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/typescript/4.4.4",
+    "requester": "D:\\zhufeng\\vue\\vue3\\v-ui",
+    "status": "resolved"
+  },
+  "8 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/typescript/4.4.4",
+    "requester": "D:\\zhufeng\\vue\\vue3\\v-ui",
+    "status": "found_in_store"
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/vue/3.2.20",
+    "requester": "D:\\zhufeng\\vue\\vue3\\v-ui",
+    "status": "resolved"
+  },
+  "10 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/vue/3.2.20",
+    "requester": "D:\\zhufeng\\vue\\vue3\\v-ui",
+    "status": "found_in_store"
+  },
+  "11 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/@vue/shared/3.2.20",
+    "wanted": {
+      "dependentId": "registry.npmmirror.com/vue/3.2.20",
+      "name": "@vue/shared",
+      "rawSpec": "3.2.20"
+    }
+  },
+  "12 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/@vue/compiler-dom/3.2.20",
+    "wanted": {
+      "dependentId": "registry.npmmirror.com/vue/3.2.20",
+      "name": "@vue/compiler-dom",
+      "rawSpec": "3.2.20"
+    }
+  },
+  "13 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/@vue/runtime-dom/3.2.20",
+    "wanted": {
+      "dependentId": "registry.npmmirror.com/vue/3.2.20",
+      "name": "@vue/runtime-dom",
+      "rawSpec": "3.2.20"
+    }
+  },
+  "14 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/@vue/compiler-sfc/3.2.20",
+    "wanted": {
+      "dependentId": "registry.npmmirror.com/vue/3.2.20",
+      "name": "@vue/compiler-sfc",
+      "rawSpec": "3.2.20"
+    }
+  },
+  "15 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/@vue/server-renderer/3.2.20",
+    "wanted": {
+      "dependentId": "registry.npmmirror.com/vue/3.2.20",
+      "name": "@vue/server-renderer",
+      "rawSpec": "3.2.20"
+    }
+  },
+  "16 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/@vue/shared/3.2.20",
+    "requester": "D:\\zhufeng\\vue\\vue3\\v-ui",
+    "status": "resolved"
+  },
+  "17 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/@vue/shared/3.2.20",
+    "requester": "D:\\zhufeng\\vue\\vue3\\v-ui",
+    "status": "found_in_store"
+  },
+  "18 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/@vue/compiler-dom/3.2.20",
+    "requester": "D:\\zhufeng\\vue\\vue3\\v-ui",
+    "status": "resolved"
+  },
+  "19 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/@vue/compiler-dom/3.2.20",
+    "requester": "D:\\zhufeng\\vue\\vue3\\v-ui",
+    "status": "found_in_store"
+  },
+  "20 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/@vue/runtime-dom/3.2.20",
+    "requester": "D:\\zhufeng\\vue\\vue3\\v-ui",
+    "status": "resolved"
+  },
+  "21 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/@vue/runtime-dom/3.2.20",
+    "requester": "D:\\zhufeng\\vue\\vue3\\v-ui",
+    "status": "found_in_store"
+  },
+  "22 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/@vue/compiler-sfc/3.2.20",
+    "requester": "D:\\zhufeng\\vue\\vue3\\v-ui",
+    "status": "resolved"
+  },
+  "23 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/@vue/compiler-sfc/3.2.20",
+    "requester": "D:\\zhufeng\\vue\\vue3\\v-ui",
+    "status": "found_in_store"
+  },
+  "24 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/@vue/server-renderer/3.2.20",
+    "requester": "D:\\zhufeng\\vue\\vue3\\v-ui",
+    "status": "resolved"
+  },
+  "25 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/@vue/server-renderer/3.2.20",
+    "requester": "D:\\zhufeng\\vue\\vue3\\v-ui",
+    "status": "found_in_store"
+  },
+  "26 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/@vue/shared/3.2.20",
+    "wanted": {
+      "dependentId": "registry.npmmirror.com/@vue/server-renderer/3.2.20",
+      "name": "@vue/shared",
+      "rawSpec": "3.2.20"
+    }
+  },
+  "27 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/@vue/compiler-ssr/3.2.20",
+    "wanted": {
+      "dependentId": "registry.npmmirror.com/@vue/server-renderer/3.2.20",
+      "name": "@vue/compiler-ssr",
+      "rawSpec": "3.2.20"
+    }
+  },
+  "28 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/@vue/compiler-ssr/3.2.20",
+    "requester": "D:\\zhufeng\\vue\\vue3\\v-ui",
+    "status": "resolved"
+  },
+  "29 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/@vue/compiler-ssr/3.2.20",
+    "requester": "D:\\zhufeng\\vue\\vue3\\v-ui",
+    "status": "found_in_store"
+  },
+  "30 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/vite/2.6.7",
+    "wanted": {
+      "dependentId": "play",
+      "name": "vite",
+      "rawSpec": "latest"
+    }
+  },
+  "31 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/vite/2.6.7",
+    "requester": "D:\\zhufeng\\vue\\vue3\\v-ui",
+    "status": "resolved"
+  },
+  "32 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmmirror.com/vite/2.6.7",
+    "size": 3591451,
+    "status": "started"
+  },
+  "33 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/vite/2.6.7",
+    "requester": "D:\\zhufeng\\vue\\vue3\\v-ui",
+    "status": "fetched"
+  },
+  "34 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 5,
+    "method": "HEAD",
+    "timeout": 10,
+    "url": "https://github.com/vitejs/plugin-vue"
+  },
+  "35 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 5,
+    "method": "HEAD",
+    "timeout": 60,
+    "url": "https://github.com/vitejs/plugin-vue"
+  },
+  "36 debug pnpm:request-retry": {
+    "attempt": 3,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 5,
+    "method": "HEAD",
+    "timeout": 360,
+    "url": "https://github.com/vitejs/plugin-vue"
+  },
+  "37 debug pnpm:request-retry": {
+    "attempt": 4,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 5,
+    "method": "HEAD",
+    "timeout": 2160,
+    "url": "https://github.com/vitejs/plugin-vue"
+  },
+  "38 debug pnpm:request-retry": {
+    "attempt": 5,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 5,
+    "method": "HEAD",
+    "timeout": 12960,
+    "url": "https://github.com/vitejs/plugin-vue"
+  },
+  "39 error pnpm": {
+    "shortMessage": "Command failed with exit code 128: D:\\有道云\\Git\\cmd\\git.EXE ls-remote git+ssh://git@github.com/vitejs/plugin-vue.git HEAD",
+    "command": "D:\\有道云\\Git\\cmd\\git.EXE ls-remote git+ssh://git@github.com/vitejs/plugin-vue.git HEAD",
+    "escapedCommand": "\"D:\\有道云\\Git\\cmd\\git.EXE\" ls-remote \"git+ssh://git@github.com/vitejs/plugin-vue.git\" HEAD",
+    "exitCode": 128,
+    "stdout": "",
+    "stderr": "ERROR: Repository not found.\nfatal: Could not read from remote repository.\n\nPlease make sure you have the correct access rights\nand the repository exists.",
+    "failed": true,
+    "timedOut": false,
+    "isCanceled": false,
+    "killed": false,
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "Command failed with exit code 128: D:\\有道云\\Git\\cmd\\git.EXE ls-remote git+ssh://git@github.com/vitejs/plugin-vue.git HEAD\nERROR: Repository not found.\nfatal: Could not read from remote repository.\n\nPlease make sure you have the correct access rights\nand the repository exists.",
+      "stack": "pnpm: Command failed with exit code 128: D:\\有道云\\Git\\cmd\\git.EXE ls-remote git+ssh://git@github.com/vitejs/plugin-vue.git HEAD\nERROR: Repository not found.\nfatal: Could not read from remote repository.\n\nPlease make sure you have the correct access rights\nand the repository exists.\n    at makeError (C:\\Users\\10081\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:48965:17)\n    at handlePromise (C:\\Users\\10081\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:49536:33)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async getRepoRefs (C:\\Users\\10081\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:84448:22)\n    at async resolveRef (C:\\Users\\10081\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:84460:20)\n    at async resolveGit (C:\\Users\\10081\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:84411:24)\n    at async Object.resolve (C:\\Users\\10081\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:85451:236)\n    at async run (C:\\Users\\10081\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:71378:23)"
+    }
+  }
+}
