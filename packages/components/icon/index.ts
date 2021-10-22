@@ -1,12 +1,14 @@
 import Icon from './src/icon.vue'
-import type {App} from 'vue'
+import {withInstall} from '@v-ui/utils/with-install'
 
 
 
 
-Icon.install = function (app) {
-    
+
+
+const VIcon = withInstall(Icon)
+
+export {
+  VIcon
 }
-
-
-export default Icon
+export default VIcon

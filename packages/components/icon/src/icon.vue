@@ -1,5 +1,5 @@
 <template>
-  <i class="v-icon"></i>
+  <i class="v-icon" :style="style" ><slot></slot></i>
 </template>
 
 <script lang='ts'>
@@ -18,6 +18,9 @@ export default defineComponent({
         ...(props.color ? { 'color': props.color } : {} )
       }
     })
+    return {
+      style
+    }
   },
 })
 </script>
